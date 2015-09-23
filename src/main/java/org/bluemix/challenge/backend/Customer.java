@@ -129,6 +129,10 @@ public class Customer implements Serializable, Cloneable {
     public Customer clone() throws CloneNotSupportedException {
         return (Customer) super.clone();
     }
-    
+
+    @Override
+    public String toString() {
+        return firstName + " "+ lastName;
+    }
     
 }
