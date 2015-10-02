@@ -198,6 +198,7 @@
 											<goal>resources</goal>
 											<goal>update-widgetset</goal>
 											<goal>compile</goal>
+                                            <goal>update-theme</goal>
 											<goal>compile-theme</goal>
 										</goals>
 									</pluginExecutionFilter>
